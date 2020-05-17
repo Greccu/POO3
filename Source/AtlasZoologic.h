@@ -79,13 +79,16 @@ template<> class AtlasZoologic <Peste>{
 
 		friend istream& operator >>(istream& is, AtlasZoologic<Peste>& at){
 		    if(&is == &cin){
-             cout<<"Introduceti numarul de elemente";
+             cout<<"Introduceti numarul de elemente: ";
 		    }
             is>>at.n;
             Peste aux;
             for(int i = 0; i < at.n; i++){
                 is>>aux;
                 at.obiecte.push_back(aux);
+                if (aux.checkrapitor() && aux.get_lungime()>1){
+                    at.pestiRapitoriLungi++;
+                }
             }
 
             return is;

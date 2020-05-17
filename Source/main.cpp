@@ -14,7 +14,7 @@ using namespace std; //aveam nevoie de std pt string
 
 int main()
 {
-    int test = 4;
+    int test = 5;
     switch(test){
         case 1:{
             Animal a;
@@ -44,6 +44,12 @@ int main()
             at += ob2;
             at += ob;
             cout<<at;
+            break;
+        }
+        case 5:{
+            AtlasZoologic <Peste> at2;
+            cin >> at2;
+            cout << at2;
         }
     }
 
