@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1589732738 source:c:\users\grecu\desktop\f\poo3\tema3\main.cpp
+	<iostream>
+	<algorithm>
+	<list>
+	<string>
+	"Animal.h"
+	"Vertebrat.h"
+	"NeVertebrat.h"
+	"Peste.h"
+	"Pasare.h"
+	"Mamifer.h"
+	"Reptila.h"
+	"AtlasZoologic.h"
+
+1589036564 c:\users\grecu\desktop\f\poo3\tema3\animal.h
+
+1589036564 c:\users\grecu\desktop\f\poo3\tema3\vertebrat.h
+
+1589036620 c:\users\grecu\desktop\f\poo3\tema3\nevertebrat.h
+
+1589036626 c:\users\grecu\desktop\f\poo3\tema3\peste.h
+
+1589036631 c:\users\grecu\desktop\f\poo3\tema3\pasare.h
+
+1589036636 c:\users\grecu\desktop\f\poo3\tema3\mamifer.h
+
+1589037011 c:\users\grecu\desktop\f\poo3\tema3\reptila.h
+
+1589733155 c:\users\grecu\desktop\f\poo3\tema3\atlaszoologic.h
+
